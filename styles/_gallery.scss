@@ -1,7 +1,29 @@
 .gallery-container {
+    
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(32, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(28, 1fr);
     gap: 20px;
-      
+    
+}    
+.image-1 {
+    display: grid;
+    grid-area: 1/1/7/2;
+}
+
+.image-2 {
+    display: grid;
+    grid-area: 7/1/14/2; 
+}
+.image-3 {
+    display: grid;
+    grid-area: 14/1/20/2; 
+}
+.image-4 {
+    display: grid;
+    grid-area: 20/1/28/2; 
+}
+.image-5 {
+    display: grid;
+    grid-area: 1/2/6/3; 
 }
