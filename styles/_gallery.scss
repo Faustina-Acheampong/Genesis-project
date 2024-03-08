@@ -16,7 +16,7 @@
 .img::after {
     content: "";
     flex-basis: 33.33%;
-  }
+}
 
 .overlay {
     position: absolute;
@@ -37,4 +37,13 @@
 /* hover */
 .column img:hover {
     transform: scale(1);
+}
+
+.gallery-container {
+    display: flex;
+    gap: 28px;
+    margin-top: 45px;
+}    
+.main-image {
+    margin-bottom: 45px;
 }
