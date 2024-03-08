@@ -11,7 +11,6 @@ html, body {
     color: $primary-color ;
     background-color: $background;
     position: relative;
-    
 }
 main {
     width: 100%;
@@ -32,6 +31,54 @@ section {
 section:target {
     display: block;
 }
+.title-container {
+    display: flex;
+    margin-bottom: 5rem;
+}     
+.page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30rem;
+    margin-top: 3rem;
+    & h2 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 137.5% */
+    }
+    & h4 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.423px;
+        margin-bottom: -0.1rem;
+    }  
+}
+.page-title a {
+    text-decoration: none;
+    color: #4A4FF2;
+}
+.tagline-container {
+    padding-top: 15rem;
+    padding-left: 25rem;  
+}  
+.line {
+    width: 30px;
+    height: 2px;
+    opacity: 0.5;
+    background: #111;
+} 
+.tagline {
+    opacity: 0.6;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .award-container {
     display: flex;
     justify-content: center;
@@ -45,12 +92,7 @@ section:target {
     text-align: justify;
     padding-right: 5rem;
 }
-.h2 {
-   font-size: 40px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 55px; /* 137.5% */ 
-}
+
 .text-box {
     display: flex;
     max-width: 45rem;
