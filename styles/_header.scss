@@ -1,15 +1,29 @@
-nav {
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+.nav-bar {
+    display: inline-block;
+    margin-top: 60px;
+    width: 100%;
+    padding-left: 12.5rem;
+    padding-right: 14.5rem;
+}    
+.nav-menu {
+    flex-shrink: 0;
+    margin-top: -40px;
+    text-align: end;
+    & li {
+        display: inline-block;
+        list-style: none;
+        padding-right: 2rem;
+        & a {
+            text-decoration: none;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.346px;
+            color: #111;
+        }
     }
-    li {
-      display: inline-block;
-    }
-    a {
-      display: block;
-      padding: 6px 12px;
-      text-decoration: none;
-    }
-  }
+}
+.nav-menu a:hover {
+    color: blue;
+}
