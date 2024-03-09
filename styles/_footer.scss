@@ -3,21 +3,20 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
     flex-basis: 100px; 
     width: 100%;
-    padding-left: 12.5rem;
-    padding-right: 14.5rem;
-    padding-bottom: -5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
     display: flex;
 }
 .footer-nav {
     flex-shrink: 0;
-    padding-left: 48rem;
+    padding-left: 41rem;
     & li {
         display: inline-block;
         list-style: none;
-        padding-right: 3rem;
+        padding-right: 2rem;
         & a {
             text-decoration: none;
             font-size: 18px;
@@ -32,10 +31,8 @@
 .footer-nav a:hover {
     color: blue;
 }
-.logo {
-    padding-top: 0.5rem
-}
 
 .socials {
    float: inline-end;
+   padding-left: 4rem;
 }

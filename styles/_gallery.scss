@@ -41,9 +41,15 @@
 
 .gallery-container {
     display: flex;
-    gap: 28px;
+    gap: 30px;
     margin-top: 45px;
+    padding-bottom: 10rem;
 }    
 .main-image {
     margin-bottom: 45px;
+}
+.map-container {
+    padding: 4rem;
+    padding-bottom: 10rem;
+
 }
