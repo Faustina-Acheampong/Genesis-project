@@ -5,3 +5,26 @@
     padding-top: 5rem;
     padding-bottom: 10rem;
 }
+
+.item-container {
+    display: inline-block;
+    width: 30%; 
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+} 
+table, td {
+    text-align: left; 
+    padding: 0.8rem;
+}
+table {
+    border: none;
+}
+
+.subject {
+    text-align: left;
+    opacity: 0.5;
+}
