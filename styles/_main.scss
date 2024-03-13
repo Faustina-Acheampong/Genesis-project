@@ -25,18 +25,7 @@ main {
     padding-left: 5rem;
     padding-right: 5rem;  
 }
-main.section-container {
-    flex-grow: 1;
-    
-    
-}
-section {
-    display: none;
-    
-}
-section:target {
-    display: block;
-}
+
 .title-container {
     display: flex;
     margin-bottom: 5rem;

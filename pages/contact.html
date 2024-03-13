@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Genesis</title>
 </head>
 <body>
-    <section id="contact">
-        <!-- contact content goes here -->
-        <div class="page-title3">
-            <h2>Full set of great features to make your product fresh</h2>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="../index.html"><img class="logo" src="../images/Logo.png" alt="logo"></a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>   
+            </div>
+        </div>                 
+    </header>
+    <main>
+        <section id="contact">
+            <!-- contact content goes here -->
+            <div class="page-title3">
+                <h2>Full set of great features to make your product fresh</h2>
+            </div>
+            <div class="text-box">
+                <p>Our favorite brands are our friends! We help them to achieve their goals, 
+                they help us to stay sharp.</p>
+            </div>
+            <div class="form-container">
+                <form action="#" class="form" autocomplete="off"></form>
+                <label for="name" class="label">Name<span class="req">*</span></label>
+                <input type="text" name="name" required id="name" class="input-space">
+                <label for="email" class="label">Email<span class="req">*</span></label>
+                <input type="email" name="email" required id="email" class="input-space">
+                <label for="message" class="label">Message</label>
+                <input type="message" name="message" required id="message" class="input-space">
+                <button type="submit" class="button">Submit</button>
+            </div>
+            <div class="map-container">
+                <a href="#"><img src="../images/Map.png" alt="map"></a>
+            </div>
+        </section>
+    </main>    
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <a href="../index.html"><img class="logo" src="../images/Logo.png" alt="logo"></a>
+            </div>
+            <div class="footer-nav">
+                <nav>
+                   <ul>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>   
+                        <div class="socials"><li><a href="#"><img src="../images/Social.png"></a></li></div> 
+                    </ul>
+                </nav>     
+            </div>    
         </div>
-        <div class="text-box">
-            <p>Our favorite brands are our friends! We help them to achieve their goals, 
-            they help us to stay sharp.</p>
-        </div>
-        <div class="form-container">
-            <form action="#" class="form" autocomplete="off"></form>
-            <label for="name" class="label">Name<span class="req">*</span></label>
-            <input type="text" name="name" required id="name" class="input-space">
-            <label for="email" class="label">Email<span class="req">*</span></label>
-            <input type="email" name="email" required id="email" class="input-space">
-            <label for="message" class="label">Message</label>
-            <input type="message" name="message" required id="message" class="input-space">
-            <button type="submit" class="button">Submit</button>
-        </div>
-        <div class="map-container">
-            <a href="#"><img src="images/Map.png" alt="map"></a>
-        </div>
-    </section>
+    </footer>
 </body>
 </html>
