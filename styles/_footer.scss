@@ -36,7 +36,6 @@
    float: inline-end;
    padding-left: 4rem;
 }
-.socials:hover {
-   transform: scale(1.3); 
-   background-color:rgb(178, 86, 235);
+.socials a i:hover {
+   transform: scale(1.5); 
 }
