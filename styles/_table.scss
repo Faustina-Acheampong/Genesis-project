@@ -30,7 +30,11 @@
 .award_description {
     width: 20%;
     opacity: 0.6;
-    padding-top: 5.5rem;
+    padding-top: 5.5rem;   
+}
+
+.award_description p {
+    padding-top: 1rem;
 }
 .year {
     width: 10%;

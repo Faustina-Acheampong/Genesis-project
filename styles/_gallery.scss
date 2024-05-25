@@ -1,9 +1,11 @@
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    grid-auto-rows: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 100%;  
+   /* grid-auto-rows: auto;
     grid-gap: 5px;
-   /* grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
    grid-template-rows: 25% 25% 25% 25%;
     & img {
@@ -12,9 +14,8 @@
 }
 
 .grid-gallery .column {
-   width: 100%;
-   height: 100%;
-   
+   /*width: 100%;
+   height: 100%;*/ 
 }
 
 .column img {
@@ -33,13 +34,4 @@
 }
 .column:hover .overlay {
     transform: scale(1);
-}
-.gallery-container {
-    display: flex;
-    gap: 30px;
-    margin-top: 45px;
-    padding-bottom: 10rem;
-}   
-.main-image {
-    margin-bottom: 45px;
 }
